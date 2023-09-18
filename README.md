@@ -163,7 +163,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, you can support me by click on the start
+If you like this project, you can support me by clicking on the start
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -181,7 +181,7 @@ I would like to thank...
 
 - **[Whould I stop the project at this point?]**
 
-  - No, I'm plan to create something big. Stay tune to the next update
+  - No, I plan to create something big. Stay tuned to the next update
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
