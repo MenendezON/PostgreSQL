@@ -6,7 +6,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Screenshot](#screenshot)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -46,12 +45,6 @@
 - **[Create a database]**
 - **[Create tables]**
 - **[Create some queries]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Screenshot <a name="screenshot"></a>
-
-<img src="screenshot-2023-09-18.png" alt="Screenshot of the queries">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
