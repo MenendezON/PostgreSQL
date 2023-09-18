@@ -23,7 +23,7 @@
 - [📝 License](#license)
 
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 PostgreSQL <a name="about-project"></a>
 
 **[your_project__name]** is a simple animals database project created with six(6) fields. We use PostgreSQL for this project
 
