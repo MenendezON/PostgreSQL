@@ -44,6 +44,7 @@
 
 - **[Create a database]**
 - **[Create tables]**
+- **[Edit the table]**
 - **[Create some queries]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -148,7 +149,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add new tables]**
+- [ ] **[Add new table]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
