@@ -23,7 +23,7 @@
 - [📝 License](#license)
 
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 PostgreSQL <a name="about-project"></a>
 
 **[your_project__name]** is a simple animals database project created with six(6) fields. We use PostgreSQL for this project
 
@@ -162,7 +162,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, you can support me by click on the start
+If you like this project, you can support me by clicking on the start
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,7 +180,7 @@ I would like to thank...
 
 - **[Whould I stop the project at this point?]**
 
-  - No, I'm plan to create something big. Stay tune to the next update
+  - No, I plan to create something big. Stay tuned to the next update
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
