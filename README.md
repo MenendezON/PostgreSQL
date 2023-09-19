@@ -43,8 +43,11 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Create a database]**
-- **[Create tables]**
-- **[Edit the table]**
+- **[Create animals table]**
+- **[Create owners table]**
+- **[Create species table]**
+- **[Edit the tables]**
+- **[Add values into the tables]**
 - **[Create some queries]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -137,8 +140,6 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
 - GitHub: [@menendezon](https://github.com/menendezon)
@@ -149,7 +150,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add new table]**
+- [ ] **[Create triggers]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
