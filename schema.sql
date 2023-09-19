@@ -39,3 +39,29 @@ ALTER TABLE animals ADD CONSTRAINT fk_owners FOREIGN KEY (owner_id) REFERENCES o
 
 ALTER TABLE animals ALTER COLUMN id SET DEFAULT nextval('animals_id_seq'::regclass);
 ALTER TABLE animals ADD PRIMARY KEY (id);
+
+/* Species table */
+CREATE TABLE vets (
+    id SERIAL,
+    name varchar(100) NOT NULL,
+    age int NOT NULL,
+    date_of_graduation date,
+    PRIMARY KEY(id)
+);
+
+CREATE TABLE specializations (
+    vet_id INTEGER,
+    species_id INTEGER,
+    PRIMARY KEY (vet_id, species_id),
+    FOREIGN KEY (vet_id) REFERENCES vets(id),
+    FOREIGN KEY (species_id) REFERENCES species(id)
+);
+
+CREATE TABLE visits (
+    vet_id INTEGER,
+    animal_id INTEGER,
+    visit_date DATE,
+    PRIMARY KEY (vet_id, animal_id, visit_date),
+    FOREIGN KEY (vet_id) REFERENCES vets(id),
+    FOREIGN KEY (animal_id) REFERENCES animals(id)
+);

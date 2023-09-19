@@ -80,13 +80,13 @@ SELECT * FROM animals;
 
 /*---------------------*/
 
-select count(*) from animals;
+SELECT count(*) from animals;
 
-select count(*) from animals where escape_attempts = 0;
+SELECT count(*) from animals where escape_attempts = 0;
 
-select avg(weight_kg) from animals;
+SELECT avg(weight_kg) from animals;
 
-select max(weight_kg), min(weight_kg)
+SELECT max(weight_kg), min(weight_kg)
 
 SELECT neutered, COUNT(*) AS escape_count FROM animals WHERE escape_attempts = 1 GROUP BY neutered ORDER BY escape_count DESC;
 
@@ -109,3 +109,20 @@ SELECT a.name FROM animals a JOIN species s ON a.species_id = s.id JOIN owners o
 SELECT a.name FROM animals a JOIN owners o ON a.owner_id = o.id WHERE o.full_name = 'Dean Winchester' AND a.escape_attempts = 0;
 
 SELECT o.full_name, COUNT(a.id) AS animal_count FROM owners o LEFT JOIN animals a ON o.id = a.owner_id GROUP BY o.full_name ORDER BY animal_count DESC LIMIT 1;
+
+/*---------------------*/
+SELECT * FROM visits INNER JOIN vets ON visits.vet_id = vets.id INNER JOIN animals ON visits.animal_id = animals.id WHERE vets.name='Vet William Tatcher' ORDER BY visit_date DESC LIMIT 1;
+
+SELECT count(distinct(a.name)) from visits vi inner join vets ve on vi.vet_id= ve.id inner join animals a on vi.animal_id=a.id where ve.name='Vet Stephanie Mendez';
+
+SELECT v.name, s.name as specialization FROM vets v LEFT JOIN specializations vs ON v.id = vs.vet_id LEFT JOIN species s ON vs.species_id = s.id group by s.name, v.name;
+
+SELECT a.name AS animal_name FROM visits v JOIN animals a ON v.animal_id = a.id join vets on v.vet_id=vets.id WHERE vets.name = 'Vet Stephanie Mendez' AND v.visit_date BETWEEN '2020-04-01' AND '2020-08-30';
+
+SELECT a.name AS animal_name, COUNT(*) AS visit_count FROM visits v JOIN animals a ON v.animal_id = a.id GROUP BY a.name ORDER BY visit_count DESC LIMIT 1;
+
+SELECT a.name AS animal_name, v.name AS vet_name, MIN(vt.visit_date) AS first_visit_date FROM visits vt JOIN vets v ON vt.vet_id = v.id JOIN animals a ON vt.animal_id = a.id WHERE v.name = 'Vet Maisy Smith' GROUP BY a.name, v.name ORDER BY first_visit_date LIMIT 1;
+
+SELECT a.name AS animal_name, v.name AS vet_name, MAX(vt.visit_date) AS most_recent_visit_date FROM visits vt JOIN vets v ON vt.vet_id = v.id JOIN animals a ON vt.animal_id = a.id GROUP BY a.name, v.name ORDER BY most_recent_visit_date DESC LIMIT 1;
+
+SELECT s.name, count(*) as species_count from vets v left join visits vi on v.id=vi.vet_id left join animals a on vi.animal_id=a.id left join species s on a.species_id=s.id where v.name='Vet Maisy Smith' group by s.name order by species_count desc limit 1;
