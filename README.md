@@ -22,7 +22,6 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-
 # 📖 PostgreSQL <a name="about-project"></a>
 
 **[your_project__name]** is a simple animals database project created with six(6) fields. We use PostgreSQL for this project
@@ -60,91 +59,24 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+This project can't be use by himself, it's a part of a future project.
 
-### Prerequisites
-
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
-### Setup
-
-Clone this repository to your desired folder:
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 _Menendez NELSON_
 
 - GitHub: [@menendezon](https://github.com/menendezon)
 - Twitter: [@menendezon](https://twitter.com/menendezon)
 - LinkedIn: [MenendezON](https://linkedin.com/in/menendezon)
+
+👤 _Nalian Achei_
+
+- Github: [@NalianAchei2020](https://github.com/NalianAchei2020)
+- Linkedin: [Nalian Achei](https://www.linkedin.com/in/nalian-achei-683208275)
+- Twitter: [@NalianAchei](https://twitter.com/NalianAchei?t=E3ePLcJ7B45dBa8SBFIXDg&s=09)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

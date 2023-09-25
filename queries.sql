@@ -126,3 +126,9 @@ SELECT a.name AS animal_name, v.name AS vet_name, MIN(vt.visit_date) AS first_vi
 SELECT a.name AS animal_name, v.name AS vet_name, MAX(vt.visit_date) AS most_recent_visit_date FROM visits vt JOIN vets v ON vt.vet_id = v.id JOIN animals a ON vt.animal_id = a.id GROUP BY a.name, v.name ORDER BY most_recent_visit_date DESC LIMIT 1;
 
 SELECT s.name, count(*) as species_count from vets v left join visits vi on v.id=vi.vet_id left join animals a on vi.animal_id=a.id left join species s on a.species_id=s.id where v.name='Vet Maisy Smith' group by s.name order by species_count desc limit 1;
+
+EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animal_id = 4;
+
+EXPLAIN ANALYZE SELECT * FROM visits where vet_id = 2;
+
+EXPLAIN ANALYZE SELECT * FROM owners where email = 'owner_18327@mail.com';
