@@ -139,7 +139,7 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 _Menendez NELSON_
 
 - GitHub: [@menendezon](https://github.com/menendezon)
 - Twitter: [@menendezon](https://twitter.com/menendezon)
