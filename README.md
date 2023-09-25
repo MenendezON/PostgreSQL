@@ -48,6 +48,8 @@
 - **[Edit the tables]**
 - **[Add values into the tables]**
 - **[Create some queries]**
+- **[Create the Diagram]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
