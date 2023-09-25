@@ -22,7 +22,6 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-
 # 📖 PostgreSQL <a name="about-project"></a>
 
 **[your_project__name]** is a simple animals database project created with six(6) fields. We use PostgreSQL for this project
@@ -145,6 +144,12 @@ Example:
 - GitHub: [@menendezon](https://github.com/menendezon)
 - Twitter: [@menendezon](https://twitter.com/menendezon)
 - LinkedIn: [MenendezON](https://linkedin.com/in/menendezon)
+
+👤 _Nalian Achei_
+
+- Github: [@NalianAchei2020](https://github.com/NalianAchei2020)
+- Linkedin: [Nalian Achei](https://www.linkedin.com/in/nalian-achei-683208275)
+- Twitter: [@NalianAchei](https://twitter.com/NalianAchei?t=E3ePLcJ7B45dBa8SBFIXDg&s=09)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
