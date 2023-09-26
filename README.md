@@ -24,7 +24,7 @@
 
 # 📖 PostgreSQL <a name="about-project"></a>
 
-**[your_project__name]** is a simple animals database project created with six(6) fields. We use PostgreSQL for this project
+**[Vet_Clinic_Database]** is vet database project created with six(6) tables. We use PostgreSQL for this project and taking into account of the performance of our database through normalization.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -50,7 +50,6 @@
 - **[Create some queries]**
 - **[Create the Diagram]**
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
@@ -62,7 +61,6 @@
 ## 💻 Getting Started <a name="getting-started"></a>
 
 This project can't be use by himself, it's a part of a future project.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
