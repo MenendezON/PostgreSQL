@@ -20,3 +20,13 @@ CREATE TABLE medical_histories (
     PRIMARY KEY(id),
     FOREIGN KEY (patient_id) REFERENCES patients(id)
 );
+
+CREATE TABLE invoices (
+    id SERIAL,
+    total_amount decimal,
+    generated_at TIMESTAMP,
+    payed_at TIMESTAMP,
+    medical_histories int,
+    PRIMARY KEY(id),
+    FOREIGN KEY (medical_histories) REFERENCES medical_histories(id)
+);
