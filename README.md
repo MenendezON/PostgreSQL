@@ -6,7 +6,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -52,18 +51,16 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](not available)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 ### Install
 
-- To install this project, use:
+- To use this project, you need to install PostgreSQL or MySQL
 - `https://github.com/MenendezON/PostgreSQL.git` to clone the project
+- Run the script schema_based_on_diagram.sql
+- Add some data to the tables
+- Once your database is set up with records, you can run some specific queries
+- (ex. to output the number of animals records, `SELECT COUNT(*) FROM animals;`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
