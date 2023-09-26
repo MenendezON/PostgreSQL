@@ -60,7 +60,10 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-This project can't be use by himself, it's a part of a future project.
+### Install
+
+- To install this project, use:
+- `https://github.com/MenendezON/PostgreSQL.git` to clone the project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
