@@ -11,3 +11,12 @@ CREATE TABLE treatments (
     name varchar(200) NOT NULL,
     PRIMARY KEY(id)
 );
+
+CREATE TABLE medical_histories (
+    id SERIAL,
+    admitted_at TIMESTAMP,
+    patient_id int,
+    status varchar(255),
+    PRIMARY KEY(id),
+    FOREIGN KEY (patient_id) REFERENCES patients(id)
+);
